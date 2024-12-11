@@ -1,0 +1,52 @@
+.main-section {
+    display: flex;
+}
+
+.hero-section {
+    width: 540px;
+    height: 421;
+    margin-top: 130px;
+    margin-left: 163px;
+}
+
+.light-button {
+    background: #fff;
+    color: #111B47;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hero-section h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    color: #091133;
+
+}
+
+.hero-section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505F98;
+}
+
+.hero-button {
+    display: flex;
+}
+
+.hero-button button {
+    width: 250px;
+}
+
+.hero-img {
+    width: 504px;
+    height: 580px;
+    margin-top: 101px;
+}
