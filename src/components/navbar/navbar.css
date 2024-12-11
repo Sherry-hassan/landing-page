@@ -22,7 +22,7 @@ nav ul li a {
     display: none;
 }
 
-button {
+.buy-now {
     margin-right: 60px;
     border: none;
     outline: none;
@@ -58,12 +58,14 @@ button {
 .footer-wrapper P {
     font-size: 0.9rem;
     font-weight: 500;
+    line-height: 24px;
     color: #939EA4;
     text-transform: capitalize;
 }
 
 .footer-wrapper h2 {
     font-size: 1.5rem;
+    line-height: 38px;
     font-weight: 900;
     color: #37447E;
 }
@@ -74,9 +76,10 @@ button {
     outline: none;
     border: none;
     font-size: 0.8rem;
+    line-height: 18px;
     font-weight: 500;
     color: #fff;
-    padding: 0.3rem 0.5rem;
+    padding: 0.3rem 1rem;
 }
 
 .footer-wrapper:first-child {

@@ -76,8 +76,7 @@ const Main = () => {
             <div className='pricing-container'>
                 <div className='pricing-text'>
                     <h2>A Price To Suit Everyone</h2>
-                    <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                        massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </h6>
+                    <h6>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus  </h6>
                 </div>
                 <div className='pricing-design'>
                     <h3>
