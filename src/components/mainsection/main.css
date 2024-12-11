@@ -9,6 +9,7 @@ body {
     padding: 0;
     width: 100%;
     /* overflow-x: hidden; */
+    /* overflow-x: hidden; */
     font-family: "Roboto", sans-serif;
 }
 
@@ -132,13 +133,7 @@ main {
     font-weight: 500;
 }
 
-/* .info-text h6 {
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
-    color: #091133;
-    margin-top: -20px;
-} */
+
 
 .button-primary {
     width: 150px;
@@ -272,6 +267,7 @@ main {
 }
 
 @media (max-width: 768px) {
+    
     nav ul {
         flex-direction: row;
         align-items: center;
@@ -330,9 +326,8 @@ main {
         flex-direction: row-reverse;
         margin-left: 20px;
         max-height: 500px;
-        gap: 30;
+        gap: 70px;
     }
-
     .info-img {
         width: 250px;
         height: 300px;
@@ -344,8 +339,7 @@ main {
 
     }
 }
-
-@media (max-width: 480px) {
+@media  (max-width: 480px) {
     nav {
         display: flex;
         justify-content: space-between;
@@ -511,5 +505,40 @@ main {
     .button-primary {
         width: 100%;
     }
+
+}
+
+@media (max-width: 390px){
+    header{
+        width: 405px;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-button .purchase-btn{
+    width: 150px;
+}
+.hero-button .light-button{
+    width: 150px;
+}
+.info-text h2{
+    margin: 0;
+}
+.info-text h6{
+    margin-top: 0px;
+}
+.info-text .button-primary{
+    margin-bottom: 20px;
+}
+.img-container{
+      margin: 0;
+      width: 100%;
+      margin-left: -40px;
+}
+.features-card{
+    display: flex;
+    gap: 40px;
+}
 
 }
