@@ -1,0 +1,7 @@
+header {
+  height: 810px;
+  background-image: url('./components/herosection/images/Path.png');
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-attachment: fixed;
+}
