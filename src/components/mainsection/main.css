@@ -330,9 +330,8 @@ main {
         flex-direction: row-reverse;
         margin-left: 20px;
         max-height: 500px;
-        gap: 30;
+        gap: 70px;
     }
-
     .info-img {
         width: 250px;
         height: 300px;
@@ -345,7 +344,7 @@ main {
     }
 }
 
-@media (max-width: 480px) {
+@media  (max-width: 480px) {
     nav {
         display: flex;
         justify-content: space-between;
@@ -511,5 +510,31 @@ main {
     .button-primary {
         width: 100%;
     }
+
+}
+
+@media (max-width: 360px){
+    header{
+        width: 405px;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-button .purchase-btn{
+    width: 150px;
+}
+.hero-button .light-button{
+    width: 150px;
+}
+.img-container{
+      margin: 0;
+      width: 100%;
+      margin-left: -40px;
+}
+.features-card{
+    display: flex;
+    gap: 40px;
+}
 
 }
