@@ -9,14 +9,6 @@
     margin-left: 163px;
 }
 
-.light-button {
-    background: #fff;
-    color: #111B47;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-}
-
 button {
     font-weight: 500;
     font-size: 16px;
@@ -27,7 +19,7 @@ button {
     font-size: 50px;
     line-height: 66px;
     color: #091133;
-
+    font-family: "Roboto";
 }
 
 .hero-section p {
@@ -39,12 +31,31 @@ button {
 
 .hero-button {
     display: flex;
+    gap: 30px;
 }
 
-.hero-button button {
-    width: 250px;
+.hero-button .purchase-btn {
+    
+    width: 189px;
+    height: 36px;
+    border: none;
+    outline: none;
+    background: #111B47;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+    line-height: 26px;
 }
-
+.hero-button .light-button{
+    width: 189px;
+    height: 36px;
+    background: white;
+    color: #091133;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
 .hero-img {
     width: 504px;
     height: 580px;

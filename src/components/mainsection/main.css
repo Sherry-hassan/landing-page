@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Roboto&display=swap');
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 html,
@@ -7,7 +8,8 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -49,6 +51,7 @@ main {
     font-size: 36px;
     color: #091133;
     font-weight: 500;
+    line-height: 48px;
 }
 
 .features-card {
@@ -59,7 +62,7 @@ main {
 }
 
 .feature-card {
-    width: 35%;
+    width: 255px;
     display: grid;
 
 }
@@ -71,6 +74,8 @@ main {
 
 .feature-card h3 {
     font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
     color: #091133;
 }
 
@@ -78,6 +83,7 @@ main {
     font-size: 12px;
     color: #5D6970;
     font-weight: 400;
+    line-height: 18px;
     margin-top: -7px;
 }
 
@@ -114,26 +120,36 @@ main {
 
 .info-text h6 {
     text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
 }
 
 .info-text h2 {
-    font-size: 33px;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
 }
 
-.info-text h6 {
+/* .info-text h6 {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     color: #091133;
     margin-top: -20px;
-}
+} */
 
 .button-primary {
-    width: 180px;
+    width: 150px;
     padding: 10px 20px;
     font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
+    background: #111B47;
+    color: #fff;
     transition: background-color 0.3s ease;
 }
 
@@ -148,36 +164,55 @@ main {
 
 .pricing-container h2 {
     font-size: 36px;
+    line-height: 48px;
+    font-weight: 500;
     color: #091133;
     text-align: center;
 }
 
 .pricing-container .pricing-text h6 {
-    width: 32%;
-    margin-left: 460px;
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
     color: #6F7CB2;
-    font-size: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 .pricing-design h3 {
     font-size: 50px;
+    line-height: 60px;
+    font-weight: 500;
     color: #091133;
 }
 
 .pricing-design h5 {
     margin-top: -40px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
 }
 
 .pricing-button p {
-    margin-left: 55px;
+    /* margin-left: 55px; */
+    color: #5D6970;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .pricing-button button {
+    width: 189px;
     border: none;
+    background: #111B47;
     padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    margin-left: 50px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    border-radius: 2px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
